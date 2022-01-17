@@ -1,0 +1,43 @@
+system Wei
+		object
+			sprite star/k0
+			period 10
+		object
+			sprite planet/dust2
+			distance 145.14
+			period 32.767
+		object
+			sprite planet/lava1
+			distance 334.14
+			period 114.459
+		object Hope
+			sprite planet/ice2
+			distance 605.15
+			period 278.966
+			object "Enki Station"
+				sprite planet/station6
+				distance 162
+				period 25.92
+		object
+			sprite planet/gas3
+			distance 2438.44
+			period 2256.44
+			object
+				sprite planet/lava0
+				distance 290
+				period 11.9475
+			object
+				sprite planet/tethys
+				distance 384
+				period 18.2044
+			object
+				sprite planet/rock14
+				distance 492
+				period 26.4015
+	planet "Enki Station"
+		attributes
+		government "N.H.I."
+		landscape land/space2
+		description `Enki Station appears to be nearly dead. The corridors are dark and deserted and only a single, faint power source is detected.`
+		spaceport `The spaceport on Enki Station is currently dark and deserted though there is an empty bar and several data terminals in the lounge.`
+		
