@@ -122,7 +122,7 @@ mission "pay for licenses"
 			`	You deliver the data chips to the AI core, this will vastly improve what is available for manufacture.`
 			`	"Thank you Captain <last>, there have been several visitors to the station since you have reactivated it; now I will have something worthwhile to sell to visitors. Since you played such a pivotal role in restoring this station I will forward a percentage of any profits into your account on a daily basis.  Additionally, if you should encounter any advanced alien species in your exploration of the galaxy we should endeavor to gain access to their manufacturing schematics and practices, though this will probably involve upgrading the equipment in the shipyard and outfitter."`
 		event "human licenses"
-		"salary: Enki Station Stipend" = 1000
+		"salary: Enki Station Stipend" = 10000
 		
 mission "gather Hai license"
 	name "Hai license from <[planet>"
@@ -169,7 +169,7 @@ mission "escort2"
 		conversation
 			`	You take the new schematics to the AI core while the freighter is being unloaded. Ereshkigal should be pleased, it will probably take about a week for the new designs to be available and will mean a pay increase.`
 		event "hai license" 7
-		"salary: Enki Station Stipend" += 1000
+		"salary: Enki Station Stipend" += 10000
 		
 
 mission "gather Remnant license"
@@ -233,7 +233,7 @@ mission "escort3"
 		conversation
 			`	A trip to the AI core while the freighter is being unloaded and the new schematics are uploaded to the database, they should be available in about a week along with another pay raise.`
 		event "remnant license" 7
-		"salary: Enki Station Stipend" += 1000
+		"salary: Enki Station Stipend" += 100000
 
 mission "gather Wanderer license"
 	name "Wanderer license from <planet>"
@@ -287,7 +287,7 @@ mission "escort4"
 		conversation
 			`	The corridor outside the AI core is starting to be very familiar. A new set of schematics to install, just have to be sure to remind Ereshkigal that some of this stuff cannot be made available to anyone other than you. The equipment install should take about a week, unfortunately because of the restricted nature of so much of this tech you don't expect to see much of a profit increase this time.`
 		event "wanderer license" 7
-		"salary: Enki Station Stipend" += 500
+		"salary: Enki Station Stipend" += 50000
 	
 
 mission "gather Coalition license"
@@ -348,7 +348,7 @@ mission "escort5"
 		conversation
 			`	A trip to the AI core to install the newest schematics, you may not have gotten access to the Coalition military tech but what you did get should increase your profitability anyway. The new designs should be ready in about a week.`
 		event "coalition license" 7
-		"salary: Enki Station Stipend" += 500
+		"salary: Enki Station Stipend" += 50000
 		
 mission "jump drive study"
 	landing
